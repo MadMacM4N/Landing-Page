@@ -1,5 +1,31 @@
 /* style.css */
 
+* {
+    display: flex;
+}
+
+header {
+    
+}
+
+.section1 {
+    
+}
+
+.section2 {
+
+}
+
+.section3 {
+    
+}
+ .section4 {
+
+ }
+
+ footer {
+
+ }
 /* Landing Page Color and Fonts Styles
 
 dark background color (hero and footer) #1F2937
@@ -23,5 +49,4 @@ Quote slecetion background color
 #E5E7EB
 
 Quote text
-36px light italic #1F2937
-*/
+36px light italic #1F2937 */
