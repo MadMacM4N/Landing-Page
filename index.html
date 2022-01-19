@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Landing Page</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -16,11 +13,15 @@
             <div class="header">
                 <!--Header text contains HEADER LOGO and header links
                 one, two, and three-->
-                <h1>HEADER LOGO</h1>
-                <h3>header link one</h3>
-                <h3>header link two</h3>
-                <h3>header link three</h3>
-            </div>
+                <div class="logo">
+                    <h1>HEADER LOGO</h1>
+                </div>
+                <div class="links">
+                    <h3>header link one</h3>
+                    <h3>header link two</h3>
+                    <h3>header link three</h3>    
+                </div>
+            </div>    
             <div class="section1">
                 <!--Section one text contains Bold This Site Is Awesome
                     This website has some subtext that goes here under 
@@ -28,16 +29,17 @@
                     lower contrast.
                     Button below text with image placeholder to the right
                 -->
-                <h1>This Site Is Awesome</h1>
+                <p>This Site Is Awesome</p>
                 <p>This website has some subtext that goes here under
                     the main title. It's a smaller font and the color is
-                    lower contrast.
-                </p>
-                <button>
-                    <div class ="button">
-                        
+                    lower contrast.</p>
+                <div class="button-box">
+                    <div>
+                        <button>
+                            Sign Up
+                        </button>
                     </div>
-                </button>
+                </div>
             </div>
             <div class="section2">
                 <!--Section Two text contains:
@@ -45,8 +47,16 @@
                     4 boxes with the following text below it:
                     "this is some subtext under an illustration
                     or image"
-                -->    
-            </div>
+                -->
+                <div class="imagebox"></div>
+                        <img src="./images/box1.png" alt="">
+                    <div class="imagebox"></div>
+                        <img src="./images/box2.png" alt="">
+                    <div class="imagebox"></div>
+                        <img src="./images/box3.png" alt="">
+                    <div class="imagebox"></div>
+                        <img src="./images/box4.png" alt="">    
+                </div>
             <div class="section3">
                 <!--Section Three text contains a quote with 
                 Authors name: "This is an inspiring quote, or
@@ -55,14 +65,35 @@
                 read it. Who knows? All I know is it looks nice.
                 -Thor, God of Thunder"
                 -->
+                <p>This is an inspiring quote, or testimonial
+                    from a customer. Maybe, it's just filling up
+                    space, or maybe  people will actually read
+                    it. All I know is it looks nice.
+                    -Thor, God of Thunder
+                </p>
             </div>
             <div class="section4">
                 <!--Section Four text contains a box with text,
                 "Call to Action! It's time!
-                "Sign up for our product by cliicking the 
+                "Sign up for our product by clicking the 
                 button right over there!"
                 Button Text: "Sign Up"
                 -->
+                <div>
+                    <class="call">
+                        Call to Action!
+                        Sign up for our product by clicking 
+                        the button right over there!
+                    </class>
+                </div>
+                <div class="button-box">
+                    <div>
+                        <button>
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+                     
             </div>
             <footer>
                 <div class="footer"
