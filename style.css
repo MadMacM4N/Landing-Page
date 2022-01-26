@@ -1,15 +1,60 @@
 /* style.css */
 
 * {
-    display: flex;
+    font-family: Roboto;
 }
 
-header {
-    
+
+.header {
+    display: flex;
+    font-weight: bolder;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 480px;
+    padding-left: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    margin-left: 70em;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .section1 {
+    display: inline;
+    color:#E5E7EB;
+    background-color: #1F2937;
+    padding: 12px;
+    flex-wrap: wrap;
+}
+
+.awesome {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    background-color: #1F2937;
+}
+
+.subtext {
+    display: flex;
+    font-size: 18px;
+    flex-wrap: wrap;
+    width: 480px;
+    background-color: #1F2937;
+}
+
+.button-box {
+    display: flex;
     
+    background-color: #1F2937;
 }
 
 .section2 {
@@ -17,15 +62,23 @@ header {
 }
 
 .section3 {
-    
+    width: 240px;
+    background-color: #E5E7EB;
+    padding: 18px;
+
 }
  .section4 {
 
  }
 
- footer {
-
- }
+ .footer {
+    display: flex;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    justify-content: center;
+    height: 60px;
+    padding-top: 40px;
+}
 /* Landing Page Color and Fonts Styles
 
 dark background color (hero and footer) #1F2937
@@ -45,7 +98,7 @@ Button color, call to action background color
 information header text
 36px extra-bold #1F2937
 
-Quote slecetion background color
+Quote selection background color
 #E5E7EB
 
 Quote text
