@@ -10,7 +10,8 @@
     font-weight: bolder;
     background-color: #1F2937;
     color: #E5E7EB;
-    height: 480px;
+    /* height 480px */
+    height: 40px;
     padding-left: 24px;
 }
 
@@ -29,32 +30,40 @@
 }
 
 .section1 {
-    display: inline;
+    display: flex;
     color:#E5E7EB;
     background-color: #1F2937;
-    padding: 12px;
-    flex-wrap: wrap;
+    padding: 24px;
+    flex-direction: column;  
 }
 
 .awesome {
-    display: flex;
     font-size: 48px;
     font-weight: bolder;
     background-color: #1F2937;
 }
 
 .subtext {
-    display: flex;
     font-size: 18px;
-    flex-wrap: wrap;
     width: 480px;
     background-color: #1F2937;
 }
 
-.button-box {
-    display: flex;
-    
+.button-box {    
     background-color: #1F2937;
+    margin: 18px;
+
+}
+
+button {
+    background-color: #3882F6;
+    border: 2px #3882F6;
+    border-radius: 10%;
+    width: 120px;
+    height: 40px;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .section2 {
