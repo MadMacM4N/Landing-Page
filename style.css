@@ -95,8 +95,8 @@ button {
 }
 
 .imagebox {
-    margin: 48px;
-    display: inline-flex;
+    margin: 0px;
+    display: flex;
 }
 
 .boximage {
