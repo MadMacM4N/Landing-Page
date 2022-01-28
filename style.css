@@ -88,21 +88,27 @@ button {
 
 .section2 {
     display: flex;
+    flex-direction: column;
+}
+
+.section2header {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .subsection2 {
     display: flex;
-}
-
-.imagebox {
-    margin: 0px;
-    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .boximage {
     display: flex;
     border: 4px solid #3882F6;
     border-radius: 12px;
+    width: 120px;
+    height: 120px;
 }
 
 .section3 {
@@ -112,10 +118,11 @@ button {
     margin: 48px;
 }
  .section4 {
- }
+    display: flex;;
+}
 
 .buttonbox2 {
-
+    display: flex;
 }
 
  .footer {
