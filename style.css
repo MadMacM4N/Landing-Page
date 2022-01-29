@@ -111,6 +111,13 @@ button {
     margin-right: 20px;
 }
 
+.description {
+    width: 540px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 650px;
+}
+
 .section3 {
     background-color: #E5E7EB;
     padding: 18px;
